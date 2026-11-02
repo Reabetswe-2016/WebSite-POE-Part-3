@@ -1,0 +1,92 @@
+# LOWSHELF WEBSITE
+## Part 3 – Technical Documentation
+
+### 1. Introduction
+
+The LowShelf website was developed to provide an online platform where customers can learn about the business, explore its shelving and racking products, view images and submit enquiries or quotation requests.
+
+Part 3 focused on improving the functionality, accessibility, responsiveness and search engine optimisation of the website.
+
+### 2. Technologies Used
+
+The following technologies were used during development:
+
+- HTML5: Used to structure the website pages and content.
+- CSS3: Used to style the website and improve its visual appearance and responsiveness.
+- JavaScript: Used to introduce interactive functionality, including the welcome message, product search suggestions and form validation.
+- Visual Studio Code: Used as the development environment for editing website files.
+- GitHub: Used for version control and project management.
+
+### 3. Website Structure
+
+The website consists of the following pages:
+
+- Home: Introduces LowShelf and provides an overview of the business.
+- About Us: Provides information about the business and its services.
+- Products: Displays the shelving, racking and storage solutions offered.
+- Gallery: Displays images related to shelving, racking and storage solutions.
+- Request a Quote: Allows customers to provide their details and request a quotation.
+- Contact Us: Provides a form through which customers can send enquiries.
+- Sitemap: Provides links to the different website pages.
+
+### 4. JavaScript Functionality
+
+JavaScript was implemented to improve user interaction and website functionality.
+
+The following features were introduced:
+
+- A dynamic welcome message displayed on the homepage.
+- A product search interface with clickable suggestions.
+- Client-side validation for the quote and contact forms.
+- Feedback messages to assist users when interacting with forms.
+
+The product search interface still requires further testing because filtering through manually entered search terms is not functioning correctly.
+
+### 5. Search Engine Optimisation (SEO)
+
+Several improvements were made to support search engine optimisation.
+
+These include:
+
+- Adding unique page titles.
+- Adding meta descriptions to individual pages.
+- Creating a robots.txt file.
+- Creating an XML sitemap.
+- Improving image descriptions through alternative text.
+- Maintaining consistent navigation between website pages.
+
+### 6. Forms and Validation
+
+The Request a Quote and Contact Us forms were updated with appropriate input fields.
+
+HTML5 validation was implemented to identify missing or incorrectly completed information.
+
+JavaScript was also used to improve form validation and provide feedback to users.
+
+The actual delivery of submitted form information are now connected to form submission service.
+
+### 7. Website Testing
+
+The website was tested to evaluate its functionality and presentation.
+
+The following tests were performed:
+
+- Checked that all website pages load correctly.
+- Tested navigation links between pages.
+- Confirmed that gallery images display correctly.
+- Confirmed that the homepage welcome message appears.
+- Tested the product search suggestions.
+- Tested required-field validation on both forms.
+- Reviewed the website layout and page structure.
+
+### 8. Outstanding Issues
+
+The following items require further attention:
+
+- Completing final deployment and post-deployment testing.
+
+### 9. Conclusion
+
+Part 3 improved the LowShelf website by introducing additional JavaScript functionality, improving form validation, adding gallery content and implementing SEO-related improvements.
+
+The website has undergone initial functional testing, with further troubleshooting and final verification required before deployment and submission.

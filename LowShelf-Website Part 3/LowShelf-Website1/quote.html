@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Request a quotation from LowShelf for shelving, warehouse storage and shopfitting solutions.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Quote - LowShelf</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Website header and navigation -->
+<header>
+<h1>LowShelf</h1>
+<p>Lowveld Shelving and Racking</p>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="products.html">Products</a>
+<a href="gallery.html">Gallery</a>
+<a href="quote.html">Request a Quote</a>
+<a href="contact.html">Contact Us</a>
+<a href="sitemap.html">Sitemap</a>
+</nav>
+</header>
+
+<!-- Quote form -->
+<main>
+
+<section>
+<h2>Request a Quote</h2>
+
+<form id="quoteForm" action="YOUR_FORMSPREE_ENDPOINT" method="POST">
+
+<label for="quoteName">Full Name:</label>
+<input type="text" id="quoteName" name="name" required>
+
+<label for="quoteEmail">Email Address:</label>
+<input type="email" id="quoteEmail" name="email" required>
+
+<label for="quotePhone">Phone Number:</label>
+<input type="tel" id="quotePhone" name="phone"
+required minlength="10">
+
+<label for="quoteProduct">Product or Service Required:</label>
+<select id="quoteProduct" name="product" required>
+<option value="">Select an option</option>
+<option value="Industrial Shelving">Industrial Shelving</option>
+<option value="Warehouse Racking">Warehouse Racking</option>
+<option value="Retail Shelving">Retail Shelving</option>
+<option value="Shopfitting">Shopfitting</option>
+<option value="Other">Other</option>
+</select>
+
+<label for="quoteMessage">Additional Requirements:</label>
+<textarea id="quoteMessage" name="message"
+rows="5" required></textarea>
+
+<button type="submit">Submit Quote Request</button>
+
+<p id="quoteFeedback"></p>
+
+</form>
+</section>
+
+<br><br>
+
+<label for="message">Describe Your Requirements:</label>
+<br>
+<textarea id="message" name="message" rows="6" cols="40" required></textarea>
+
+<br><br>
+
+<button type="submit">Submit Request</button>
+
+</form>
+
+</section>
+
+</main>
+
+<!-- Website footer -->
+<footer>
+<p>&copy; 2026 LowShelf - Lowveld Shelving and Racking. All rights reserved.</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
